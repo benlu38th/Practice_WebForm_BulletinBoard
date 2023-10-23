@@ -1,0 +1,241 @@
+﻿body {
+    background-color: #FFDDAA;
+    padding: 20px 0 0 0;
+}
+
+* {
+    box-sizing: border-box;
+        font-family: 'Noto Sans TC', sans-serif;
+}
+.bg-primary {
+    background-color: burlywood;
+}
+.color-white{
+    color:white;
+}
+.font-set {
+    font-family: "Noto Sans CJK TC", "Microsoft JhengHei", PingFang, STHeiti, sans-serif, serif;
+}
+
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    background: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.display-sb{
+    display: flex;
+    justify-content:flex-start;
+}
+.display-center-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.align-items-FS{
+    align-items:flex-start;
+}
+.color-orange {
+    color: coral;
+}
+.color-tan {
+    color: tan;
+}
+.color-blue {
+    color: #0066FF;
+}
+.font-wieght{
+    font-weight:900;
+}
+
+.btn {
+    width: 100px;
+    padding: 5px;
+    color: whitesmoke;
+    Background: tan;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+    .btn:hover {
+        color: tan;
+        Background: whitesmoke;
+        font-weight: bold;
+        border: 1.5px solid black;
+    }
+    .btn:focus {
+        border: 1.5px solid tan;
+    }
+
+.btn2 {
+    width: 100px;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: #FF8800;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+    .btn2:hover {
+        color: beige;
+        Background: whitesmoke;
+        color: #FF8800;
+        font-weight: bold;
+        border: 1.5px solid black;
+    }
+
+    .btn2:focus {
+        border: 1.5px solid #FF8800;
+    }
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.padding-5 {
+    padding: 10px;
+}
+.padding-4 {
+    padding: 4px;
+}
+.border-radious-10r {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.border-radious-10l {
+    border-radius: 0px 10px 10px 0px;
+}
+
+input {
+    width: 100%;
+    border-radius: 6px;
+    padding: 3px;
+    border: 3px solid black;
+    outline: none;
+}
+    input:hover {
+        border: 3px solid burlywood;
+    }
+    input:focus {
+        border: 3px solid burlywood;
+    }
+textarea {
+    width: 100%;
+    border-radius: 6px;
+    padding: 3px;
+    border: 3px solid black;
+    outline: none;
+}
+    textarea:hover {
+        border: 3px solid burlywood;
+    }
+    textarea:focus {
+        border: 3px solid burlywood;
+    }
+.margin-top-8{
+    margin-top:8px;
+}
+.margin-top-16- {
+    margin-top: -16px;
+}
+.margin-top-1- {
+    margin-top: -1px;
+}
+.margin-bottom-16- {
+    margin-bottom: -16px;
+}
+.margin-top-8- {
+    margin-top: -8px;
+}
+.margin-bottom-8- {
+    margin-bottom: -8px;
+}
+.margin-bottom-0- {
+    margin-bottom: 0px;
+}
+.margin-left-16-{
+    margin-left: -16px;
+}
+.margin-top-0- {
+    margin-top: 0px;
+}
+.width-100{
+    width:100%;
+}
+.time{
+    position:absolute;
+    right:0px;
+    top:0px;
+}
+.position-relative{
+    position:relative;
+}
+.theme {
+    box-shadow: 2px 2px 6px lightslategray;
+}
+.reply {
+    box-shadow: 2px 2px 6px lightslategray;
+}
+.position-absolute {
+    position: absolute;
+    right: 10px;
+}
+.bg-secondary {
+    background-color: coral;
+}
+.bg-3 {
+    background-color: #FF8800;
+}
+.border-bottom {
+    padding-bottom: 0.3em;
+    border-bottom: solid 2px #FF8800;
+    border-top: solid 2px #FF8800;
+}
+h4{
+    position:relative;
+}
+h4::before {
+    content: open-quote;
+    font-size:30px;
+    color:darkorchid;
+}
+    h4::after {
+        position: absolute;
+        content: close-quote;
+        font-size: 30px;
+        color: darkorchid;
+        top: 33px;
+    }
+.mt-16{
+    margin-top:16px;
+}
+.hidden {
+    overflow:hidden;
+}
+.nowrap{
+    white-space:nowrap;
+}
+.padding-4-{
+    padding:4px 4px 4px 0px;
+}
+.placecolor-red::placeholder{
+    color:red;
+    font-weight:bold;
+}
